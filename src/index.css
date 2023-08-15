@@ -19,6 +19,10 @@
   display: block;
 }
 
+.font-link{
+  font-family: 'Quicksand', sans-serif;
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
