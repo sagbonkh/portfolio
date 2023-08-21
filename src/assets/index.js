@@ -21,14 +21,15 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import acd_img from "./company/acd_img.jpg";
+import defend_logo from "./company/defend_logo.jpg";
+import bccancer_logo from "./company/bccancer_logo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import thesaurus from "./nthesaurus.png";
+import restaurant from "./restaurant.jpg";
 
 export {
   logo,
@@ -52,10 +53,11 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  acd_img,
+  defend_logo,
+  bccancer_logo,
+  thesaurus,
+  restaurant,
   carrent,
   jobit,
   tripguide,

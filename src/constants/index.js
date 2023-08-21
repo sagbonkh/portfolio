@@ -15,10 +15,11 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    acd_img,
+    bccancer_logo,
+    defend_logo,
+    thesaurus,
+    restaurant,
     carrent,
     jobit,
     tripguide,
@@ -99,7 +100,7 @@ import {
     {
       title: "Full-Stack Developer",
       company_name: "ACD Systems International",
-      // icon: starbucks,
+      icon: acd_img,
       iconBg: "#383E56",
       date: "September 2022 - April 2023",
       points: [
@@ -111,7 +112,7 @@ import {
     {
       title: "Python Developer",
       company_name: "65Square (Help Us Defend)",
-      // icon: tesla,
+      icon: defend_logo,
       iconBg: "#E6DEDD",
       date: "April 2022 - July 2022",
       points: [
@@ -123,7 +124,7 @@ import {
     {
       title: "IT Support Specialist",
       company_name: "BC Cancer Research Institute",
-      // icon: shopify,
+      icon: bccancer_logo,
       iconBg: "#383E56",
       date: "September 2021 - April 2022",
       points: [
@@ -134,59 +135,11 @@ import {
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const projects = [
     {
-      name: "Car Rent",
+      name: "Thesaurus",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Thesaurus blends fashion, designers, and travel in an engaging web application. Discover the latest fashion trends, insightful designer profiles, and captivating travel destinations. With compelling articles and vibrant visuals, users can explore style and creativity. An interactive community fosters discussions among enthusiasts, while the responsive design ensures a seamless experience across devices. Thesaurus isn't just a blog; it's an immersive journey celebrating the fusion of fashion, design, and exploration in a captivating digital realm.",
       tags: [
         {
           name: "react",
@@ -197,34 +150,34 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: thesaurus,
+      source_code_link: "https://github.com/sagbonkh/thesaurus",
     },
     {
-      name: "Trip Guide",
+      name: "Restaurant Health",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "My restaurant app uses health inspection records from restaurants across Surrey. This app equips users with information to make informed choices about where to eat. By analyzing health inspection data, the app generates personalized recommendations, guiding users towards the cleanest and safest dining options in the city. Whether you're a health-conscious individual or simply seeking the best dining experience, this app is your ultimate companion in navigating the restaurant scene with confidence.",
       tags: [
         {
-          name: "nextjs",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "J-unit",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "source_control",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: restaurant,
+      source_code_link: "https://github.com/sagbonkh/Restaurant_app.git",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };

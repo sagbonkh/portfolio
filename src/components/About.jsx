@@ -45,13 +45,9 @@ const About = () => {
       <motion.p 
         variants={fadeIn("","", 0.1,1)}
         className='mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]'>
-          Greetings,
-          I'm a proficient and innovative Software Developer with a genuine 
-          enthusiasm for crafting software solutions that are both high-quality
-           and user-centered. My expertise lies in translating intricate concepts
-            into functional code, and I bring a wealth of knowledge in diverse 
-            programming languages, development methodologies, and cutting-edge 
-            technologies.
+          As a recent graduate with a background in Computer Science, I bring a fresh perspective and a passion for problem-solving to the table. My most recent role as a web developer at ACD Systems has equipped me with hands-on experience in creating dynamic and user-friendly web applications. Proficient in languages such as HTML, CSS, JavaScript, and PHP, I have a solid foundation in crafting visually appealing and functional interfaces.
+          My journey has led me to explore the world of databases, including MySQL and MongoDB, giving me the ability to efficiently manage and organize data for optimal application performance. Additionally, my familiarity with the React framework has enabled me to delve into the world of frontend development, enhancing user experiences through responsive and interactive designs.
+          My overarching objective is to combine my technical expertise with creative problem-solving to drive innovation. I am driven by a desire to create solutions that not only cater to business needs but also resonate with end-users. With a commitment to efficiency and a keen eye for detail, I am enthusiastic about contributing to projects that bridge the gap between technology and human-centric design, ultimately delivering valuable solutions to businesses and their customers.
         </motion.p>
         <div className='mt-20 flex flex-wrap gap-10'>
           {services.map((service, index)=>(
