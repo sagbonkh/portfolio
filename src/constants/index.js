@@ -72,21 +72,10 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    
     {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
     },
     {
       name: "Node JS",
@@ -97,16 +86,8 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
     },
     {
       name: "docker",
@@ -116,55 +97,39 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Full-Stack Developer",
+      company_name: "ACD Systems International",
+      // icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "September 2022 - April 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Enhanced user experience by updating and maintaining all user-facing webpages, resulting in a 5% increase in overall conversion rates and higher user interactions.",
+        "Implemented a social sign-in feature for Google and Apple accounts on the user portal, leveraging HTML, CSS, and PHP.",
+        "Developed a dynamic product release page, overseeing the creation of a manager page for product managers to add, remove, and edit products, alongside a user-facing page capable of real-time updates.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Python Developer",
+      company_name: "65Square (Help Us Defend)",
+      // icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "April 2022 - July 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Collaborated with multiple teams to conceive and develop an AR-inspired virtual world featuring immersive events, such as online dating, shopping, and other interactive experiences.",
+        "Employed Django (Python) on the backend to develop the calendar and reminder functionalities for the application.",
+        "Utilized GitLab for source control, Docker for containerization, and MongoDB for efficient database management.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "IT Support Specialist",
+      company_name: "BC Cancer Research Institute",
+      // icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "September 2021 - April 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Successfully spearheaded a project to replace more than 600 Windows 7 computers by developing a PowerShell script that gathers comprehensive information about each computer and exports it as a CSV document.",
+        "Ensured optimal equipment performance by installing, upgrading, and updating software, and hardware components.",
+        "Installed, managed, repaired, and tested computer hardware such as workstations, printers, telephones, etc.",
       ],
     },
   ];
