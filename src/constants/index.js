@@ -5,6 +5,10 @@ import {
     web,
     javascript,
     typescript,
+    java,
+    php,
+    cpp,
+    python,
     html,
     css,
     reactjs,
@@ -20,7 +24,6 @@ import {
     defend_logo,
     thesaurus,
     restaurant,
-    carrent,
     jobit,
     tripguide,
     threejs,
@@ -93,6 +96,22 @@ import {
     {
       name: "docker",
       icon: docker,
+    },
+    {
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "PHP",
+      icon: php,
+    },
+    {
+      name: "Python",
+      icon: python,
     },
   ];
   
