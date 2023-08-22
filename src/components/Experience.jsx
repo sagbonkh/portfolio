@@ -9,7 +9,7 @@ import {textVariant} from '../utils/motion';
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
-    contentStyle={{background: '#2F7758', color: '#2F7758'}}
+    contentStyle={{background: '#2F7758', color: 'text-white'}}
     contentArrowStyle={{ borderRight: '7px solid #FBD3F8'}}
     date={experience.date}
     iconStyle={{ background: experience.iconBg }}
@@ -25,7 +25,7 @@ const ExperienceCard = ({ experience }) => (
   >
    <div>
     <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
-    <p className='text-secondary text-[16px] 
+    <p className='text-secondary text-[19px] 
     font-semibold'>{experience.company_name}</p>
    </div>
    <ul className='mt-5 list-disc ml-5 space-y-2'>
