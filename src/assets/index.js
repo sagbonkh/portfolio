@@ -20,12 +20,16 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/pythonicon.png";
+import java from "./tech/javaicon.png";
+import cpp from "./tech/c++Icon.png";
+import php from "./tech/phpicon.png";
+
 
 import acd_img from "./company/acd_img.jpg";
 import defend_logo from "./company/defend_logo.jpg";
 import bccancer_logo from "./company/bccancer_logo.png";
 
-import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import thesaurus from "./nthesaurus.png";
@@ -41,6 +45,10 @@ export {
   menu,
   close,
   css,
+  python,
+  cpp,
+  php,
+  java,
   docker,
   figma,
   git,
@@ -58,7 +66,6 @@ export {
   bccancer_logo,
   thesaurus,
   restaurant,
-  carrent,
   jobit,
   tripguide,
 };
