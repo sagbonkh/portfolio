@@ -29,7 +29,7 @@ import { loadFull } from "tsparticles";
                   }
               },
               "color": {
-                  "value": "#F6A0F0"
+                  "value": "#50D7E8"
               },
               "shape": {
                   "type": "star",
@@ -127,7 +127,6 @@ import { loadFull } from "tsparticles";
           },
           "retina_detect": true,
           "background": {
-              "color": "#48B786",
               "image": "",
               "position": "50% 50%",
               "repeat": "no-repeat",

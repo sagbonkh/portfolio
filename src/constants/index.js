@@ -153,18 +153,18 @@ import {
       description:
         "Thesaurus blends fashion, designers, and travel in an engaging web application. Discover the latest fashion trends, insightful designer profiles, and captivating travel destinations. With compelling articles and vibrant visuals, users can explore style and creativity. An interactive community fosters discussions among enthusiasts, while the responsive design ensures a seamless experience across devices. Thesaurus isn't just a blog; it's an immersive journey celebrating the fusion of fashion, design, and exploration in a captivating digital realm.",
       tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "pink-text-gradient",
-        },
+        // {
+        //   name: "react",
+        //   color: "blue-text-gradient",
+        // },
+        // {
+        //   name: "restapi",
+        //   color: "green-text-gradient",
+        // },
+        // {
+        //   name: "javascript",
+        //   color: "pink-text-gradient",
+        // },
       ],
       image: thesaurus,
       source_code_link: "https://github.com/sagbonkh/thesaurus",
@@ -174,18 +174,18 @@ import {
       description:
         "My restaurant app uses health inspection records from restaurants across Surrey. This app equips users with information to make informed choices about where to eat. By analyzing health inspection data, the app generates personalized recommendations, guiding users towards the cleanest and safest dining options in the city. Whether you're a health-conscious individual or simply seeking the best dining experience, this app is your ultimate companion in navigating the restaurant scene with confidence.",
       tags: [
-        {
-          name: "Java",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "J-unit",
-          color: "green-text-gradient",
-        },
-        {
-          name: "source_control",
-          color: "pink-text-gradient",
-        },
+        // {
+        //   name: "Java",
+        //   color: "violet-gradient",
+        // },
+        // {
+        //   name: "J-unit",
+        //   color: "green-text-gradient",
+        // },
+        // {
+        //   name: "source_control",
+        //   color: "pink-text-gradient",
+        // },
       ],
       image: restaurant,
       source_code_link: "https://github.com/sagbonkh/Restaurant_app.git",
