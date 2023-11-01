@@ -20,6 +20,7 @@ import {
     defend_logo,
     thesaurus,
     restaurant,
+    codex,
   } from "../assets";
   
   export const navLinks = [
@@ -148,6 +149,14 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Codex",
+      description:
+        "Codex is my latest brainchild, a dynamic social network web app designed with the utmost care and precision. Developed on the robust NextJS framework, Codex boasts a TypeScript-driven front end and leverages the power of NodeJS for its backend components. User authentication is seamlessly handled through Clerk, offering a secure and user-friendly experience. The heart of Codex, our data storage, is entrusted to MongoDB, ensuring efficient and secure management of user interactions. With GitHub as our trusted source control platform, collaboration and version management are seamless, allowing for a more streamlined development process.",
+      tags: [],
+      image: codex,
+      source_code_link: "https://github.com/sagbonkh/codex",
+    },
     {
       name: "Thesaurus",
       description:

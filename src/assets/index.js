@@ -24,6 +24,7 @@ import defend_logo from "./company/defend_logo.jpg";
 import bccancer_logo from "./company/bccancer_logo.png";
 import thesaurus from "./nthesaurus.png";
 import restaurant from "./restaurant.jpg";
+import codex from "./codex_home.png"
 
 export {
   logo,
@@ -51,4 +52,5 @@ export {
   bccancer_logo,
   thesaurus,
   restaurant,
+  codex,
 };
